@@ -4,5 +4,10 @@ body {
 #container {
   border: 1px solid red;
   width: 360px;
-  height: 712px;
+  /* height: 712px; */
+  margin: auto;
+}
+#perfil img {
+  width: 112px;
+  margin: auto;
 }
