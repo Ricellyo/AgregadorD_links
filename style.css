@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background: url('assets/bg-mobile.jpg') no-repeat top center/cover ;
 }
@@ -9,8 +14,13 @@ body * {
   border: 1px solid red;
   width: 360px;
   /* height: 712px; */
-  margin: auto;
+  margin: 56px auto 0px;
 }
+
+#profile {
+  text-align: center;
+  padding: 25px;
+} 
 #profile img {
   display: block;
   width: 112px;
@@ -18,8 +28,9 @@ body * {
 }
 #profile p {
   display: block;
-  text-align: center;
+  /* text-align: center; */
   font-weight: 500;
   font-size: 16px;
   font-weight: 24px;
+  margin-top: 8px;
 }
