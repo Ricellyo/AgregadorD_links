@@ -15,6 +15,8 @@ body * {
   width: 360px;
   /* height: 712px; */
   margin: 56px auto 0px;
+
+  padding: 0 24px;
 }
 
 #profile {
@@ -53,5 +55,14 @@ ul li a{
   border-radius: 8px;
 
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);    
+
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+
+}
+ul li a:hover{
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
 }
