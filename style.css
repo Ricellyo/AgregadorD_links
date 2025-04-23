@@ -10,18 +10,18 @@
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --highlight-color: rgb(255,255,255, 0.2);
-  --switch-bg-url: url('assets/moon-stars.svg');
+  --highlight-color: rgb(255, 255, 255, 0.2);
+  --switch-bg-url: url("assets/moon-stars.svg");
 }
 
 .light {
   --text-color: black;
   --bg-url: url("assets/bg-mobile-light.jpg");
   --stroke-color: rgba(0, 0, 0, 0.5);
-  --surface-color: rgba(0 ,0 ,0 , 0.05);
+  --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgb(0, 0, 0, 0.1);
-  --switch-bg-url: url('assets/sun.svg');
+  --switch-bg-url: url("assets/sun.svg");
 }
 
 body {
@@ -32,8 +32,7 @@ body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
-#container {
-
+#container{
   width: 100%;
   max-width: 588px;
   /* height: 712px; */
@@ -65,7 +64,7 @@ body * {
   position: relative;
   width: 64px;
   margin: 24px auto;
-}  
+}
 #switch button {
   width: 32px;
   height: 32px;
@@ -79,7 +78,7 @@ body * {
   transform: translateY(-50%);
   top: 50%;
 
-  animation: slide-back 0.2s ;
+  animation: slide-back 0.2s;
 }
 
 .light #switch button {
@@ -99,12 +98,11 @@ body * {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
-  
 }
 
 /* perfil concluido e iniciando as caixas de links  */
 ul {
-  list-style: none; 
+  list-style: none;
 
   display: flex;
   flex-direction: column;
@@ -112,34 +110,33 @@ ul {
 
   padding: 24px 0;
 }
-ul li a{
+ul li a {
   display: flex;
   justify-content: center;
-  align-items: center ;
+  align-items: center;
   padding: 16px 24px;
 
-  background:var(--surface-color);
+  background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
 
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);    
+  -webkit-backdrop-filter: blur(4px);
 
   text-decoration: none;
   font-weight: 500;
   transition: background 0.2s;
-
 }
-ul li a:hover{
+ul li a:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
-#social-links{
+#social-links {
   /* border: 1px solid red ; */
-  display:  flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 0 ;
+  padding: 24px 0;
   font-size: 24px;
 }
 #social-links a {
@@ -147,7 +144,7 @@ ul li a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px ;
+  padding: 16px;
   transition: background 0.2s;
   border-radius: 50%;
 }
@@ -160,11 +157,11 @@ footer {
 }
 
 /* Implementado os medias queries */
-@media (min-width: 700px){
+@media (min-width: 700px) {
   :root {
     --bg-url: url("assets/bg-desktop.jpg");
   }
-  .light{
+  .light {
     --bg-url: url("assets/bg-desktop-light.jpg");
   }
 }
@@ -173,15 +170,17 @@ footer {
 @keyframes slide-in {
   from {
     left: 0;
-  }to{
+  }
+  to {
     left: 50%;
   }
 }
 
 @keyframes slide-back {
-  from{
+  from {
     left: 50%;
-  }to {
+  }
+  to {
     left: 0;
   }
 }
@@ -189,14 +188,30 @@ footer {
 /* iniciando a estlilização do index perfil */
 
 .perfil {
-  border: 4px solid red ;
+  /* border: 4px solid red; */
   width: 100%;
   max-width: 588px;
   margin: 56px auto 0px;
-  padding: 0px 24px;
+  padding: 24px;
+  text-align: center;
 }
-.perfil img{
+.perfil nav ul {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.perfil img {
   display: block;
   width: 112px;
   margin: auto;
+  padding-top: 10px;
+}
+.perfil p {
+  /* border: 1px solid red; */
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 24px;
+  padding: 8px ;
 }
