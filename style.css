@@ -215,3 +215,17 @@ footer {
   margin-top: 24px;
   padding: 8px ;
 }
+
+/* iniciando a estlilização do portifolio */
+
+#portifolios, .projetos {
+  border: 1px solid red;
+  width: 100%;
+  max-width: 558px;
+  margin: 56px auto 0px;
+  padding: 24px;
+  text-align: center;
+}
+.projetos {
+  border: 1px solid var(--stroke-color);
+}
