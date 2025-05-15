@@ -218,6 +218,7 @@ footer {
 
 /* iniciando a estlilização do portifolio */
 
+
 #portifolios, .projetos {
   border: 1px solid red;
   width: 100%;
@@ -228,4 +229,12 @@ footer {
 }
 .projetos {
   border: 1px solid var(--stroke-color);
+}
+
+#portifolios nav ul {
+  /* border: 1PX SOLID rgb(59, 213, 157); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
