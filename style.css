@@ -229,9 +229,9 @@ footer {
 }
 .projetos {
   border: 1px solid var(--stroke-color);
+  border-radius: 8px;
 }
-
-#portifolios nav ul {
+#portifolios ul {
   /* border: 1PX SOLID rgb(59, 213, 157); */
   display: flex;
   flex-direction: row;
