@@ -219,15 +219,6 @@ footer {
 
 /* iniciando a estlilização do portifolio */
 
-
-#portifolios, .projetos {
-  /* border: 1px solid red; */
-  width: 100%;
-  max-width: 558px;
-  margin: 56px auto 0px;
-  padding: 24px;
-  text-align: center;
-}
 #portifolios ul {
   /* border: 1px solid rgb(59, 213, 157); */
   display: flex;
@@ -236,14 +227,25 @@ footer {
   align-items: center;
   
 }
+#profile {
+  margin-bottom: 17px;
+}
+#portifolios, .projetos {
+  /* border: 1px solid red; */
+  width: 100%;
+  max-width: 558px;
+  margin: 56px auto 0px;
+  padding: 24px;
+  text-align: center;
+
+}
 .projetos {
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
-  padding: 11px 24px;
-  
-
-  backdrop-filter: blur(4);
+  padding: 15px 24px;
+  margin: 15px;
+  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 
 }
