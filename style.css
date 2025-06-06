@@ -247,7 +247,6 @@ footer {
   margin: 15px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-
 }
 
 .projetos:hover {
@@ -271,4 +270,14 @@ footer {
   justify-content: space-around;
   align-items: center;
   
+}
+.certificados {
+
+}
+.diplomas {
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+  padding: 40px 5px;
+  margin: 15px;
 }
