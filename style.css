@@ -271,9 +271,9 @@ footer {
   align-items: center;
   
 }
-.certificados {
+/* .certificados {
 
-}
+} */
 .diplomas {
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
@@ -281,3 +281,6 @@ footer {
   padding: 40px 5px;
   margin: 15px;
 }
+
+/* -------------------- */
+
