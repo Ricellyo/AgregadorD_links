@@ -251,38 +251,44 @@ footer {
 .projetos:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
-
 }
 
 /* Iniciando o arquivo Certificações */
-
-.certificações  {
-  width: 100%;
-  max-width: 588px;
-  margin: 58px auto 0px;
-  padding: 0 24px;
-  border: 1px solid red ;
-
-}
 .certificações ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
- .certificados {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  border: 1px solid red ;
- }
-.diplomas {                                       
+.certificações, #profile {
+  margin-top: 17px;
+}
+.certificações, .diplomas {
+  /* border: 1px solid red; */
+  width: 100%;
+  max-width: 558px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.diplomas{                                  
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
   padding: 15px 24px ;
   margin: 15px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
+.diplomas:hover {
+  background: var(--surface-color-hover);
+  border: 1.5px solid var(--text-color) ;
+}
+
+.projetos.diplomas, a {
+  text-decoration: none;
+}
 /* -------------------- */
 
