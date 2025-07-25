@@ -189,11 +189,11 @@ footer {
 /* iniciando a estlilização do index perfil */
 
 .perfil {
-  /* border: 4px solid red; */
+  border: 4px solid red;
   width: 100%;
   max-width: 588px;
   margin: 56px auto 0px;
-  padding: 24px;
+  padding: 24px ;
   text-align: center;
 }
 .perfil nav ul {
@@ -223,21 +223,28 @@ footer {
   /* border: 1px solid rgb(59, 213, 157); */
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
   align-items: center;
+  border: 1px solid red;
   
 }
 #profile {
   margin-bottom: 17px;
 }
 #portifolios, .projetos {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   width: 100%;
   max-width: 558px;
-  margin: 56px auto 0px;
-  padding: 0 24px;
+  margin: 58px auto 0px;
+  padding: 24px;
   text-align: center;
 }
+#portifolios ul li a {
+  border: 1px solid red;
+  /* padding: 16px 24px; */
+}
+
 .projetos {
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
@@ -257,18 +264,24 @@ footer {
 .certificações ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 50px;
+  border: 1px solid red;
+}
+.certificações ul li a {
+  border: 1px solid red;
+  /* padding: 16px 24px; */
 }
 .certificações, #profile {
   margin-top: 17px;
 }
 .certificações, .diplomas {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   width: 100%;
   max-width: 558px;
-  margin: 56px auto 0px;
-  padding: 0 24px;
+  margin: 58px auto 0px;
+  padding: 24px;
   text-align: center;
 }
 
