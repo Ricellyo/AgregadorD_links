@@ -224,14 +224,12 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 50px;
+  gap: 55px;
   align-items: center;
   border: 1px solid red;
   
 }
-#profile {
-  margin-bottom: 17px;
-}
+
 #portifolios, .projetos {
   border: 1px solid red;
   width: 100%;
@@ -240,9 +238,13 @@ footer {
   padding: 24px;
   text-align: center;
 }
-#portifolios ul li a {
+
+.portifolio {
   border: 1px solid red;
-  /* padding: 16px 24px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projetos {
@@ -266,7 +268,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 55px;
   border: 1px solid red;
 }
 .certificações ul li a {
@@ -283,6 +285,13 @@ footer {
   margin: 58px auto 0px;
   padding: 24px;
   text-align: center;
+}
+.certificados {
+   border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .diplomas{                                  
